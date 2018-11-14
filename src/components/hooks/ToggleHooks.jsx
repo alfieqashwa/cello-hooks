@@ -6,8 +6,9 @@ const ToggleHooks = () => {
 
     return (
       <button onClick={() => setIsToggleOn(!isToggleOn)}>
-        { isToggleOn ? 'HOOKS-ON' : 'HOOKS-OFF' }
+        { isToggleOn ? "HOOKS-ON" : "HOOKS-OFF" }
       </button>
     );
   }
+
 export default ToggleHooks;
