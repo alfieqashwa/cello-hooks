@@ -8,6 +8,7 @@ import Toggle from './components/stable/Toggle';
 import ToggleHooks from './components/hooks/ToggleHooks';
 import LoginControl from './components/stable/LoginControl';
 import LoginControlArrow from './components/stable/LoginControlArrow';
+import LoginControlHooks from './components/hooks/LoginControlHooks';
 
 
 export default () =>
@@ -29,4 +30,5 @@ export default () =>
     </div>
     <div><LoginControl /></div>
     <div><LoginControlArrow /></div>
+    <div><LoginControlHooks /></div>
   </div>
