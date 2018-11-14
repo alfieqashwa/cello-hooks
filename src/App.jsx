@@ -6,6 +6,7 @@ import Clock from './components/stable/Clock';
 import ClockHooks from './components/hooks/ClockHooks';
 import Toggle from './components/stable/Toggle';
 import ToggleHooks from './components/hooks/ToggleHooks';
+import LoginControl from './components/stable/LoginControl';
 
 
 export default () =>
@@ -25,4 +26,5 @@ export default () =>
     <div>
       <ToggleHooks />
     </div>
+    <div><LoginControl /></div>
   </div>
