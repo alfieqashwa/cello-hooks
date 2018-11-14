@@ -1,4 +1,4 @@
-# Comparing Statefull Component with Hooks
+# Comparing Stateful Component with Hooks
 
 I know Hooks is unstable but I'm sure it will change the paradigm for React and also Vue (?)
 So -- as a (still) noob --, comparing between them is not only makes me getting prepared to learn Hooks in the very beginning
