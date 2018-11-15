@@ -1,23 +1,21 @@
 import React, { useState } from 'react';
 
-export default function LoginControl() {
-    const [isLoggedIn, setIsLoggedIn] = useState(false);
+export default function LoginControlHooks() {
+  const [isLoggedIn, setIsLoggedIn] = useState(false);
 
   function handleLoginClick() {
-    setIsLoggedIn(true)
+      setIsLoggedIn(true)
   }
 
   function handleLogoutClick() {
-    setIsLoggedIn(false)
+      setIsLoggedIn(false)
   }
 
   let button;
 
-  if (isLoggedIn) {
-    button = <LogoutButton onClick={handleLogoutClick} />;
-  } else {
-    button = <LoginButton onClick={handleLoginClick} />;
-  }
+  isLoggedIn
+    ? button = <LogoutButton onClick={handleLogoutClick} />
+    : button = <LoginButton onClick={handleLoginClick} />
 
   return (
     <div>
