@@ -12,7 +12,7 @@ import LoginControlHooks from './components/hooks/LoginControlHooks';
 import Page from './components/stable/Page';
 import PageHooks from './components/hooks/PageHooks';
 import Blogpost from './components/stable/Blogpost';
-//import BlogHooks from './components/stable/BlogHooks';
+import BlogpostDestructure from './components/stable/BlogpostDestructure';
 
 
 export default () =>
@@ -37,5 +37,8 @@ export default () =>
     <div><LoginControlHooks /></div>
     <div><Page /></div>
     <div><PageHooks /></div>
+    <hr />
     <div><Blogpost /></div>
+    <hr />
+    <div><BlogpostDestructure /></div>
   </div>
