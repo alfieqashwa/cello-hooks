@@ -11,6 +11,8 @@ import LoginControlArrow from './components/stable/LoginControlArrow';
 import LoginControlHooks from './components/hooks/LoginControlHooks';
 import Page from './components/stable/Page';
 import PageHooks from './components/hooks/PageHooks';
+import Blogpost from './components/stable/Blogpost';
+//import BlogHooks from './components/stable/BlogHooks';
 
 
 export default () =>
@@ -35,4 +37,5 @@ export default () =>
     <div><LoginControlHooks /></div>
     <div><Page /></div>
     <div><PageHooks /></div>
+    <div><Blogpost /></div>
   </div>
