@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 
 // Counter with Arrow Func
-export default class Counter extends Component {
+export default class CounterArrow extends Component {
   constructor(props) {
     super(props);
 

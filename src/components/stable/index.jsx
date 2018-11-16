@@ -1,5 +1,5 @@
 import Counter from './Counter';
-import ArrowCounter from './ArrowCounter';
+import CounterArrow from './CounterArrow';
 import Clock from './Clock';
 import Toggle from './Toggle';
 import LoginControl from './LoginControl';
@@ -10,7 +10,7 @@ import BlogpostDestructure from './BlogpostDestructure';
 
 export {
   Counter,
-  ArrowCounter,
+  CounterArrow,
   Clock,
   Toggle,
   LoginControl,

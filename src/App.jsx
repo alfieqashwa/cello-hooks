@@ -2,7 +2,7 @@ import React from 'react';
 
 import {
   Counter,
-  ArrowCounter,
+  CounterArrow,
   Clock,
   Toggle,
   LoginControl,
@@ -26,7 +26,7 @@ export default () =>
   <div>
     <div>
       <Counter />
-      <ArrowCounter />
+      <CounterArrow />
       <CounterHooks />
     </div>
     <div>
