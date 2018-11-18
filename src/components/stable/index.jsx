@@ -7,6 +7,7 @@ import LoginControlArrow from './LoginControlArrow';
 import Page from './Page';
 import Blogpost from './Blogpost';
 import BlogpostDestructure from './BlogpostDestructure';
+import Reservation from './Reservation';
 
 export {
   Counter,
@@ -17,5 +18,6 @@ export {
   LoginControlArrow,
   Page,
   Blogpost,
-  BlogpostDestructure
+  BlogpostDestructure,
+  Reservation
 }

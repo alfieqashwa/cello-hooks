@@ -3,6 +3,7 @@ import ClockHooks from './ClockHooks';
 import ToggleHooks from './ToggleHooks';
 import LoginControlHooks from './LoginControlHooks';
 import PageHooks from './PageHooks';
+import ReservationHooks from './ReservationHooks';
 
 export {
   CounterHooks,
@@ -10,4 +11,5 @@ export {
   ToggleHooks,
   LoginControlHooks,
   PageHooks,
+  ReservationHooks
 };

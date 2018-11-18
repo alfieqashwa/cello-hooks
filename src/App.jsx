@@ -10,6 +10,7 @@ import {
   Page,
   Blogpost,
   BlogpostDestructure,
+  Reservation
 } from './components/stable';
 
 import {
@@ -18,6 +19,7 @@ import {
   ToggleHooks,
   LoginControlHooks,
   PageHooks,
+  ReservationHooks
 } from './components/hooks';
 
 
@@ -48,4 +50,12 @@ export default () =>
     <div><Blogpost /></div>
     <hr />
     <div><BlogpostDestructure /></div>
+    <div>
+      <h2>Reservation</h2>
+      <Reservation />
+    </div>
+    <div>
+      <h2>ReservationHooks</h2>
+      <ReservationHooks />
+    </div>
   </div>
