@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-function ReservationHooks() {
+function Reservation() {
   const [isGoing, setIsGoing] = useState(true);
   const [numberOfGuests, setNumberOfGuests] = useState(2);
 
@@ -26,4 +26,4 @@ function ReservationHooks() {
   );
 }
 
-export default ReservationHooks;
+export default Reservation;
